@@ -16,7 +16,7 @@ int main()
 	char lcd2[10] = { 'a','b','c','d','e','f','g','h','i','j' };
 	char lcd3[10] = { '*','"','!','%','/','.','-',',','Ø','?' };
 
-	char* lcd[3] = { lcd1, lcd2, lcd3 };
+	char* lcd[2] = { lcd1, lcd2, lcd3 };
 
 	for (size_t i = 0; i < SIZE*NUMBER_OF_SCREENS; i++)
 	{
